@@ -1,19 +1,3 @@
-// import { Component, OnInit } from '@angular/core';
-
-// @Component({
-//   selector: 'app-werkers',
-//   templateUrl: './werkers.page.html',
-//   styleUrls: ['./werkers.page.scss'],
-// })
-// export class WerkersPage implements OnInit {
-
-//   constructor() { }
-
-//   ngOnInit() {
-//   }
-
-// } // class
-
 import { WerkerService, SearchType } from './../../services/werker.service';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
