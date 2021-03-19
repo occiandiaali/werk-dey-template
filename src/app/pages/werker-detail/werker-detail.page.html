@@ -1,13 +1,3 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    <ion-title>werkerDetail</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-</ion-content> -->
-
 <ion-header>
   <ion-toolbar color="primary">
     <ion-buttons slot="start">
@@ -47,7 +37,11 @@
         <ion-label text-wrap>{{ information.Actors }}</ion-label>
       </ion-item>
  
-      <ion-button expand="full" (click)="openWebsite()" *ngIf="information.Website && information.Website != 'N/A'">
+      <!-- <ion-button expand="full" (click)="openWebsite()" *ngIf="information.Website && information.Website != 'N/A'">
+        <ion-icon name="open" slot="start"></ion-icon>
+        Open Website
+      </ion-button> -->
+      <ion-button expand="full" (click)="openWebsite()" >
         <ion-icon name="open" slot="start"></ion-icon>
         Open Website
       </ion-button>
